@@ -13,6 +13,6 @@ from .api import ApiViewSet
 
 ruta = routers.DefaultRouter()
 ruta.register('api/empleados', ApiViewSet, 'api')
-ruta.register('api/consumo', ApiViewSet, 'api')
+ruta.register('api/consumo', ApiViewSet, 'consumo')
 
 urlpatterns = ruta.urls
